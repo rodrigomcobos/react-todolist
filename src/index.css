@@ -14,6 +14,19 @@ button {
   font-family: 'Press Start 2P', system-ui;
 }
 
+button:hover {
+  background: #202124;
+  color: white;
+}
+
+.delete:hover {
+  color: red;
+}
+
+.edit:hover {
+  color: green;
+}
+
 #root {
   min-height: 100vh;
   display: flex;

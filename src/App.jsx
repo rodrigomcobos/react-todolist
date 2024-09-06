@@ -6,6 +6,7 @@ const App = () => {
 
   //Anytime a new todo item is inputted, the component will refresh or rerender the page
   //to display the updated values, without useState this would not be possible
+  //This is a pre-populated list
   const [todos, setTodos] = useState(
     [ //this becomes the prop, to access it, will need to destructure
       'Go to the gym',
@@ -13,6 +14,8 @@ const App = () => {
       'Read a book',
       'Do some coding'
     ])
+
+
   const [todoValue, setTodoValue] = useState('')
 
   //This function is making sure the data added, deleted or edit is saved or persisted

@@ -11,11 +11,11 @@ const TodoCard = (props) => { //receiving the children from parent component of 
             <div className="actionsContainer">
                 <button onClick={() => {
                     handleEditTodo(index)
-                }}><i className="fa-solid fa-pen-to-square" /></button>
+                }}><i className="fa-solid fa-pen-to-square edit" /></button>
 
                 <button onClick={() => {
                     handleDeleteTodo(index)
-                }}><i className="fa-solid fa-trash-can" /></button>
+                }}><i className="fa-solid fa-trash-can delete" /></button>
 
 
             </div>
